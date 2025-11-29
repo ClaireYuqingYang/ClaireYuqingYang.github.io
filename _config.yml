@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Claire Yuqing Yang"
+title                    : "Claire Y. Yang • Attention, Authenticity, Misinformation Research"
 title_separator          : "-"
 name                     : &name "Claire Yuqing Yang"
 description              : &description "MS Student at NYU- Applied Statistics for Social Science Research"   # Update this with a general description of your site, this is the default if not overridden by a page
