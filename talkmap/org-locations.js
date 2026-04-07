@@ -1,22 +1,12 @@
 var addressPoints = [
   [
-    "Talk 2 on Relevant Topic in Your Field<br />London School of Testing; London, UK",
-    51.4893335,
-    -0.14405508452768728
+    "When Professionals Stretch the Truth: Exploring Inflated Self-Reporting in Social Surveys<br />2025 NYU Society for Statistics Conference; New York, NY, USA",
+    40.7127281,
+    -74.0060152
   ],
   [
-    "Tutorial 1 on Relevant Topic in Your Field<br />UC-Berkeley Institute for Testing Science; Berkeley, CA, USA",
-    37.8708393,
-    -122.272863
-  ],
-  [
-    "Conference Proceeding talk 3 on Relevant Topic in Your Field<br />Testing Institute of America 2014 Annual Conference; Los Angeles, CA, USA",
-    34.0536909,
-    -118.242766
-  ],
-  [
-    "Talk 1 on Relevant Topic in Your Field<br />UC San Francisco, Department of Testing; San Francisco, CA, USA",
-    37.7792588,
-    -122.4193286
+    "Predicting the Next Pitch Type and Analyzing Batter-Pitcher Strategic Interactions<br />Connecticut Sports Analytics Symposium (CSAS 2025), Yale University; New Haven, CT, USA",
+    41.3082138,
+    -72.9250518
   ]
 ];
