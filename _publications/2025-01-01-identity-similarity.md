@@ -7,7 +7,7 @@ date: 2025-01-01
 venue: "Working Paper"
 category: working
 citation: "Zhang, R., & Yang, Y. Identity Similarity Misfire: How Can Diversity Training Contribute to Psychological Safety Climate? Preparation for Organization Science."
-paperurl: ""
+paperurl:
 ---
 
 Under preparation for *Organization Science*.

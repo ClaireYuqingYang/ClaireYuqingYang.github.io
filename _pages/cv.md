@@ -12,12 +12,11 @@ redirect_from:
 Education
 ======
 * **M.S. in Applied Statistics for Social Science Research**, New York University, Sept. 2024 – May 2026
-  * GPA: 3.967/4.0
   * Core Courses: Causal Inference, Multilevel Modeling, Messy Data and Machine Learning, Statistical Computing, Frequentist Inference, Modern Approaches in Measurement, Generative AI for the Social Sciences, Database and Data Science Practicum, Experimental and Quasi-Experimental Design, Missing Data, Computer Vision
 
 * **B.B.A. in Management (Global Business Management)**, Chinese University of Hong Kong, Shenzhen, Sept. 2019 – May 2024
-  * Upper Second Class (Honors) · Major GPA: 3.27/4.0
-  * Minor in Applied Psychology · Minor GPA: 3.73/4.0
+  * Upper Second Class (Honors)
+  * Minor in Applied Psychology
   * Honors: 2022–23 & 2023–24 Dean's List; Four-Year Entrance Scholarship ($16,900)
 
 Research Interests
