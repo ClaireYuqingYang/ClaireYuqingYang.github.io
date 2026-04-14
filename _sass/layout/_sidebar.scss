@@ -81,23 +81,23 @@
    ========================================================================== */
 
 .author__avatar {
-  display: table-cell;
-  vertical-align: top;
-  width: 36px;
-  // set width only, for non-square avatars
-  // height: 36px;
+  display: block;
+  width: auto;
+  margin-bottom: 10px;
 
   @include breakpoint($large) {
     display: block;
     width: auto;
     height: auto;
+    margin-bottom: 0;
   }
 
   img {
-    max-width: 175px;
+    max-width: 120px;
     border-radius: 0;
 
     @include breakpoint($large) {
+      max-width: 175px;
       padding: 0;
       border: none;
     }
@@ -105,10 +105,10 @@
 }
 
 .author__content {
-  display: table-cell;
-  vertical-align: top;
-  padding-left: 15px;
-  padding-right: 25px;
+  display: block;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
   line-height: 1;
 
   @include breakpoint($large) {
