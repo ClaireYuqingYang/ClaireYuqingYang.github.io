@@ -9,14 +9,14 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Claire Y. Yang • Misinformation Research and Computational Social Science"
+title                    : "Claire Yang"
 title_separator          : "-"
 name                     : &name "Claire Yuqing Yang"
-description              : &description "MS Student at NYU- Applied Statistics for Social Science Research"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Claire Yuqing Yang studies misinformation, decision-making, and AI-based behavioral modeling. M.S., Applied Statistics for Social Science Research, NYU."
 url                      : https://ClaireYuqingYang.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "ClaireYuqingYang/ClaireYuqingYang.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -26,9 +26,9 @@ author:
   avatar           : "profile.png"
   name             : "Claire Yuqing Yang"
   pronouns         : she/her
-  bio              : "MS @ NYU Applied Statistics | RA @ Columbia Business School | Behavioral Research · Misinformation · Causal Inference"
+  bio              : "Behavioral research & computational social science. M.S., Applied Statistics, NYU."
   location         : "New York, NY"
-  employer         : "New York University"
+  employer         :
   uri              : # URL
   email            : "yy5550@nyu.edu"
 
@@ -81,10 +81,10 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  manuscripts:
-    title: 'Refereed Articles'
   working:
     title: 'Working Papers'
+  manuscripts:
+    title: 'Conference Proceedings'
   conferences:
     title: 'Conference Presentations'
 
@@ -92,7 +92,7 @@ publication_category:
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
-future                   : true
+future                   : false
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
 talkmap_link             : false      #change to true to add link to talkmap on talks page
 comments:
@@ -122,7 +122,7 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
+  hide                   : true
   path                   : # blank (default) uses feed.xml
 
 
@@ -163,6 +163,27 @@ include:
   - _pages
   - files
 exclude:
+  # Unused AcademicPages examples are retained in source but not published.
+  - _posts
+  - _portfolio
+  - _pages/archive-layout-with-content.md
+  - _pages/category-archive.html
+  - _pages/collection-archive.html
+  - _pages/cv-json.md
+  - _pages/markdown.md
+  - _pages/non-menu-page.md
+  - _pages/page-archive.html
+  - _pages/portfolio.html
+  - _pages/tag-archive.html
+  - _pages/talkmap.html
+  - _pages/terms.md
+  - _pages/year-archive.html
+  - files/paper1.pdf
+  - files/paper2.pdf
+  - files/paper3.pdf
+  - files/slides1.pdf
+  - files/slides2.pdf
+  - files/slides3.pdf
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
