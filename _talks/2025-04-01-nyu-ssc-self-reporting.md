@@ -2,7 +2,9 @@
 title: "When Professionals Stretch the Truth: Exploring Inflated Self-Reporting in Social Surveys"
 collection: talks
 type: "Paper Presentation"
-permalink: /talks/2025-nyu-ssc-self-reporting
+permalink: /talks/2025-nyu-ssc-self-reporting/
+redirect_from:
+  - /talks/2025-nyu-ssc-self-reporting.html
 venue: "2025 NYU Society for Statistics Conference"
 date: 2025-04-01
 location: "New York, NY, USA"
