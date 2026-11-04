@@ -1,17 +1,15 @@
 ---
-title: "Basic Statistics I (Teaching Assistant)"
+title: "Basic Statistics I"
 collection: teaching
-type: "Undergraduate Course"
+type: "Teaching Assistant"
 permalink: /teaching/2025-basic-stats-ta/
 venue: "New York University"
 date: 2025-02-01
-location: "New York, USA"
+location: "New York, NY"
+excerpt: "Teaching Assistant, February 2025–May 2026 · Three semesters. Undergraduate statistics at New York University."
 ---
+**Teaching Assistant, Basic Statistics I**
 
-**Teaching Assistant, Basic Statistics I for Undergraduates**  
-*Feb. 2025 – Present*
+New York University · February 2025–May 2026 · Three semesters
 
-- Lead lab sessions of ~30 students, reviewing weekly lecture material and reinforcing key statistical concepts.  
-- Teach SPSS for introductory data analysis and guide students in hands-on practice.  
-- Hold weekly office hours to support student learning.  
-- Grade homework assignments and provide feedback on their statistical reasoning.
+I led lab sessions, taught introductory data analysis in SPSS, held office hours, and provided feedback on assignments and statistical reasoning.
