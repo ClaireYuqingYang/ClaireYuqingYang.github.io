@@ -2,14 +2,12 @@
 title: "Identity Similarity Misfire: How Can Diversity Training Contribute to Psychological Safety Climate?"
 collection: publications
 permalink: /publication/identity-similarity/
-excerpt: "Working paper examining how the similarity between trainees' identities and their assigned roles in LARP-based diversity training affects psychological safety climate."
-date: 2025-01-01
-venue: "Working Paper"
-category: working
-citation: "Zhang, R., & Yang, Y. Identity Similarity Misfire: How Can Diversity Training Contribute to Psychological Safety Climate? Preparation for Organization Science."
-paperurl:
+date: 2024-04-01
+category: earlier
+display_order: 7
+authors: "Zhang, R., & Yang, Y."
+status: "Earlier research project on LARP-based diversity training."
 ---
+This experimental project examined how the similarity between trainees' identities and their assigned roles in LARP-based diversity training relates to perspective-taking and psychological safety.
 
-Under preparation for *Organization Science*.
-
-Examines how the similarity between trainees' identities and the roles they play in LARP-based diversity training leads to positive training outcomes such as perspective-taking and increased psychological safety climate.
+It formed part of my research with Rongrong Zhang on live action role-playing games and organization theory, from November 2022 to April 2024.
