@@ -15,7 +15,7 @@ My research combines experiments and causal inference with computational social 
 
 <div class="profile-actions">
   <a href="{{ '/publications/' | relative_url }}">Explore my research <span aria-hidden="true">→</span></a>
-  <a href="{{ '/files/cv.pdf' | relative_url }}">CV (PDF)</a>
+  <a href="{{ '/files/CV_Claire%20Yuqing%20Yang_Predoc.pdf' | relative_url }}">CV (PDF)</a>
   <a href="mailto:yy5550@nyu.edu">Email me</a>
 </div>
 
