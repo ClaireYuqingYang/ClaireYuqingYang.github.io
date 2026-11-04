@@ -5,33 +5,23 @@ permalink: /sitemap/
 author_profile: true
 ---
 
-{% include base_path %}
+## Pages
 
-A list of all the posts and pages found on the site. For you robots out there, there is an [XML version]({{ base_path }}/sitemap.xml) available for digesting as well.
-
-<h2>Pages</h2>
-{% for post in site.pages %}
-  {% include archive-single.html %}
+{% for link in site.data.navigation.main %}
+- [{{ link.title }}]({{ link.url | relative_url }})
 {% endfor %}
 
-<h2>Posts</h2>
-{% for post in site.posts %}
-  {% include archive-single.html %}
+## Research
+
+{% assign papers = site.publications | sort: 'display_order' %}
+{% for paper in papers %}
+- [{{ paper.title }}]({{ paper.url | relative_url }})
 {% endfor %}
 
-{% capture written_label %}'None'{% endcapture %}
+## Presentations
 
-{% for collection in site.collections %}
-{% unless collection.output == false or collection.label == "posts" %}
-  {% capture label %}{{ collection.label }}{% endcapture %}
-  {% if label != written_label %}
-  <h2>{{ label }}</h2>
-  {% capture written_label %}{{ label }}{% endcapture %}
-  {% endif %}
-{% endunless %}
-{% for post in collection.docs %}
-  {% unless collection.output == false or collection.label == "posts" %}
-  {% include archive-single.html %}
-  {% endunless %}
+{% for talk in site.talks reversed %}
+- [{{ talk.title }}]({{ talk.url | relative_url }})
 {% endfor %}
-{% endfor %}
+
+[XML sitemap]({{ '/sitemap.xml' | relative_url }})

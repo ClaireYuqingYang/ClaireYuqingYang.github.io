@@ -1,15 +1,43 @@
 ---
 permalink: /
-title: "About me"
+title: "Hi, I'm Claire."
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
-Hi, I'm Claire. I am currently an M.S. student in Applied Statistics for Social Science Research at New York University and a Research Assistant at Columbia Business School (Brane Lab).
 
-My research focuses on how people interpret and engage with information in digital environments, combining causal inference with computational methods to study behavior at scale. I am particularly interested in misinformation, and how platform-mediated contexts shape judgment and decision-making.
+<p class="intro-lead">I study misinformation, decision-making, and how AI can be used to model and understand human behavior.</p>
 
-Methodologically, I work at the intersection of causal inference and computational social science. I design experiments and estimate statistical models to identify behavioral effects, while also building computational systems (e.g., browser-based interventions, text-based analysis pipelines) to collect and analyze large-scale behavioral data.
+I received my M.S. in **Applied Statistics for Social Science Research** from New York University in May 2026. Before NYU, I studied management with a minor in psychology at The Chinese University of Hong Kong, Shenzhen.
 
-I am currently working on (1) a paper that develops a browser-based intervention (FeedFrame) to study how interface design can reduce engagement with misinformation in real-world social media environments. This work combines field-like experimentation with behavioral trace data to examine how changes in content presentation affect attention, interaction, and sharing behavior. (2) the use of large language models as tools for modeling and simulating human decision-making, evaluating the extent to which such systems can replicate observed behavioral patterns.
+My research combines experiments and causal inference with computational social science. I build browser-based interventions, collect behavioral trace data, and use statistical models to study how people engage with information. I also examine where LLM-based simulations align with, or diverge from, human judgment.
+
+<div class="profile-actions">
+  <a href="{{ '/publications/' | relative_url }}">Explore my research <span aria-hidden="true">→</span></a>
+  <a href="{{ '/files/CV_Claire%20Yuqing%20Yang_Predoc.pdf' | relative_url }}">CV (PDF)</a>
+  <a href="mailto:yy5550@nyu.edu">Email me</a>
+</div>
+
+## Selected research
+
+<div class="research-highlight" markdown="1">
+### Accuracy+
+A goal-compatible accuracy nudge to reduce misinformation sharing. I developed experimental infrastructure for manipulating information exposure and recording behavior across social media environments.
+
+[Project details →]({{ '/publication/accuracy-plus/' | relative_url }})
+</div>
+
+<div class="research-highlight" markdown="1">
+### Synthetic consumers
+My working paper uses a known-direction test to evaluate LLM-based counterfactual simulation, examining the distinction between behavioral measurement and mechanism.
+
+[Paper details →]({{ '/publication/synthetic-consumers/' | relative_url }})
+</div>
+
+<div class="research-highlight" markdown="1">
+### Authenticity and engagement
+I study engagement and authenticity in interactive narratives using player reviews, narrative scripts, and gameplay materials. A separate project examines how consumers judge the authenticity of AI-generated images.
+
+[More research →]({{ '/publications/' | relative_url }})
+</div>

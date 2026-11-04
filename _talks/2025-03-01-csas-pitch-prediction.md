@@ -2,7 +2,9 @@
 title: "Predicting the Next Pitch Type and Analyzing Batter-Pitcher Strategic Interactions"
 collection: talks
 type: "Poster Presentation"
-permalink: /talks/2025-csas-pitch-prediction
+permalink: /talks/2025-csas-pitch-prediction/
+redirect_from:
+  - /talks/2025-csas-pitch-prediction.html
 venue: "Connecticut Sports Analytics Symposium (CSAS 2025), Yale University"
 date: 2025-03-01
 location: "New Haven, CT, USA"

@@ -1,36 +1,47 @@
 ---
 layout: archive
-title: "Publications"
+title: "Research"
 permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<p>I study misinformation, decision-making, and AI-based behavioral modeling through experiments, causal inference, and computational methods.</p>
+<p class="research-note">* denotes equal contribution. See also <a href="{{ site.author.googlescholar }}">Google Scholar</a> and my <a href="{{ '/files/CV_Claire%20Yuqing%20Yang_Predoc.pdf' | relative_url }}">CV</a>.</p>
 
-{% include base_path %}
-
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
+{% assign papers = site.publications | sort: 'display_order' %}
+{% for category in site.publication_category %}
+<section class="research-section" aria-labelledby="category-{{ category[0] }}">
+  <h2 id="category-{{ category[0] }}">{{ category[1].title }}</h2>
+  {% for paper in papers %}
+    {% if paper.category == category[0] %}
+      <article class="research-entry">
+        <h3><a href="{{ paper.url | relative_url }}">{{ paper.title }}</a></h3>
+        <p class="research-authors">{{ paper.authors }} ({{ paper.date | date: '%Y' }}).</p>
+        <p class="research-status">{{ paper.status | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+        {% if paper.summary %}<p>{{ paper.summary }}</p>{% endif %}
+        {% if paper.paperurl %}<p><a href="{{ paper.paperurl }}">View publication <span aria-hidden="true">↗</span></a></p>{% endif %}
+      </article>
+    {% endif %}
   {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+</section>
+{% endfor %}
 
-
-
+<section class="research-section" aria-labelledby="research-experience">
+  <h2 id="research-experience">Additional Research Experience</h2>
+  <article class="research-entry">
+    <h3>Consumer Perceptions of AI-Generated Image Authenticity</h3>
+    <p class="research-authors">With Ashlee Humphreys and Erik Steiner · October 2026–present</p>
+    <p>I contribute to literature synthesis and research-question development on how consumers form authenticity judgments about AI-generated materials.</p>
+  </article>
+  <article class="research-entry">
+    <h3>AIM-Lab, Stanford Graduate School of Business</h3>
+    <p class="research-authors">Research Assistant (trial period) · PI: Yu Ding · October 2026–present</p>
+    <p>I collect and organize AI-generated product recommendations across four LLM platforms using a standardized prompting protocol.</p>
+  </article>
+  <article class="research-entry">
+    <h3>Columbia Business School, Br-Ane Lab</h3>
+    <p class="research-authors">Development Lead, formerly Summer Research Intern · June 2025–August 2026</p>
+    <p>Working with Kristen Lane and Melanie Brucks, I built browser-based experimental infrastructure and analyzed human and LLM-generated behavioral data using mixed-effects and causal inference models.</p>
+  </article>
+  <p>My earlier work includes <a href="{{ '/publication/identity-similarity/' | relative_url }}">LARP-based diversity training</a>, agent-based models of cooperation, and pilot studies of consumer behavior. Full experience and methods are listed in my <a href="{{ '/cv/' | relative_url }}">CV</a>.</p>
+</section>
