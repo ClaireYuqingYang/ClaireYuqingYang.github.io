@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-<p class="intro-lead">I study misinformation, decision-making, and how AI can be used to model and understand human behavior.</p>
+<p class="intro-lead">I study misinformation, authenticity, and decision-making. I also explore how AI can be used to model and understand human behavior.</p>
 
 I received my M.S. in **Applied Statistics for Social Science Research** from New York University in May 2026. Before NYU, I studied management with a minor in psychology at The Chinese University of Hong Kong, Shenzhen.
 
